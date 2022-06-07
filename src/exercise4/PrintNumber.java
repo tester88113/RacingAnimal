@@ -1,11 +1,9 @@
-package Exercise4;
-
-import sun.nio.cs.ext.IBM500;
+package exercise4;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class printNumber
+public class PrintNumber
 {
     public static void print()
     {

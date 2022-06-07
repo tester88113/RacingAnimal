@@ -1,10 +1,6 @@
-package Exercise4;
-
-import sun.lwawt.macosx.CInputMethodDescriptor;
+package exercise4;
 
 import java.util.Scanner;
-
-import static com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Int;
 
 public class Lab_04 {
     public static void main(String[] args) {
@@ -26,22 +22,22 @@ public class Lab_04 {
 
         switch (selectNumber) {
             case (1):
-                addNumber.menu();
+                AddNumber.menu();
                 break;
             case (2):
 
-                printNumber.print();
+                PrintNumber.print();
                 break;
             case (3):
-                maxNumber.maxValue();
+                MaxNumber.maxValue();
                 break;
             case (4):
-                minNumber.minValue();
+                MinNumber.minValue();
                 break;
 
             case (5):
 
-                searchValue.search();
+                SearchValue.search();
                 break;
             default:
                 throw new IllegalStateException("Unexpected value: " + selectNumber);

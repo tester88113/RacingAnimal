@@ -1,9 +1,9 @@
-package Exercise4;
+package exercise4;
 
 import java.util.Scanner;
 
-public class minNumber {
-    public static void minValue() {
+public class MaxNumber {
+    public static void maxValue() {
         Scanner values = new Scanner(System.in);
         System.out.println("How many number do you want to input?");
         int total = values.nextInt();
@@ -15,16 +15,19 @@ public class minNumber {
 
             list[I] = values.nextInt();
         }
-        int minValue= list[0];
+
+        int maxValue= 0;
+
         for( int k=0; k< list.length; k++)
         {
 
-            if( list[k] < minValue)
+            if( list[k] > maxValue)
             {
-                minValue=  list[k];
+                maxValue=  list[k];
             }
 
         }
-        System.out.print("The minimum number is:" + minValue);
+        System.out.print("The maximum number is:" + maxValue);
+
     }
 }

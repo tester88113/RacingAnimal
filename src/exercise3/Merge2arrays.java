@@ -1,10 +1,10 @@
-package Exercise3;
+package exercise3;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class merge2arrays {
+public class Merge2arrays {
     public static void main(String[] args) {
 
 //        Array 01: {1, 12, 16, 28, 34}

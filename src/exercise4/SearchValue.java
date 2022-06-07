@@ -1,8 +1,8 @@
-package Exercise4;
+package exercise4;
 
 import java.util.Scanner;
 
-public class searchValue
+public class SearchValue
 {
     public static void search() {
         Scanner values = new Scanner(System.in);

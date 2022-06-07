@@ -1,6 +1,6 @@
-package Exercise3;
+package exercise3;
 
-public class minMaxValue
+public class MinMaxValue
 {
     public static void main(String[] myList)
     {

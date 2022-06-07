@@ -1,11 +1,9 @@
-package Exercise3;
-
-import com.sun.org.apache.xpath.internal.objects.XString;
+package exercise3;
 
 import java.util.Arrays;
 
 
-public class sort {
+public class Sort {
     public static void main(String[] list) {
 
         int[] sortList = {12, 34, 1, 16, 28};

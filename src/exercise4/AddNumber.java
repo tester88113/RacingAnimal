@@ -1,8 +1,8 @@
-package Exercise4;
+package exercise4;
 
 import java.util.Scanner;
 
-public class addNumber {
+public class AddNumber {
     public static void menu() {
         Scanner values = new Scanner(System.in);
         System.out.println("How many number do you want to input?");

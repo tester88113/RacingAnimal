@@ -1,6 +1,6 @@
-package Exercise3;
+package exercise3;
 
-public class oddEvenNumber {
+public class OddEvenNumber {
     private static int t;
 
     public static void main(String[] intArray)
