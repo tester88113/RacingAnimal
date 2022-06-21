@@ -17,9 +17,9 @@ public class RacingBetweenAnimals {
         Animal tiger = new Tiger();
 
         RacingBetweenAnimals racing = new RacingBetweenAnimals();
-   Animal winner = RacingBetweenAnimals.winner(Arrays.asList(dog, horse,tiger));
-       // System.out.println(" the winner is " + winner.getName()+  winner.getAnimalRandomSpeed());
-        System.out.println(" the winner is " +winner);
+        Animal winner = RacingBetweenAnimals.winner(Arrays.asList(dog, horse, tiger));
+        // System.out.println(" the winner is " + winner.getName()+  winner.getAnimalRandomSpeed());
+        System.out.println(" the winner is " + winner);
     }
 
     public static Animal winner(@NotNull List<Animal> animalList) {

@@ -3,19 +3,14 @@ package exercise3;
 public class OddEvenNumber {
     private static int t;
 
-    public static void main(String[] intArray)
-    {
+    public static void main(String[] intArray) {
         int[] intArr = {1, 2, 3, 4, 5};
         int oddNumber = 0;
         int evenNumber = 0;
-        for (int t = 0; t < intArr.length; t++)
-        {
-            if (intArr[t] % 2 == 0)
-
-            {
+        for (int t = 0; t < intArr.length; t++) {
+            if (intArr[t] % 2 == 0) {
                 evenNumber++;
-            } else if (intArr[t] % 2 != 0)
-            {
+            } else if (intArr[t] % 2 != 0) {
                 oddNumber++;
             }
         }
@@ -23,8 +18,6 @@ public class OddEvenNumber {
         System.out.printf("total of even number is: %d", evenNumber);
 
     }
-
-
 
 
 }

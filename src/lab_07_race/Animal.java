@@ -4,8 +4,8 @@ import java.security.SecureRandom;
 
 public class Animal {
     private String name;
-    private  int maxSpeed=20;
-    private int animalRandomSpeed= new SecureRandom().nextInt(maxSpeed);
+    private int maxSpeed = 20;
+    private int animalRandomSpeed = new SecureRandom().nextInt(maxSpeed);
 
     public String getName() {
         return name;
@@ -16,19 +16,16 @@ public class Animal {
     }
 
 
+    //public Animal(){};
+    public Animal(String name, int maxSpeed) {
+        this.maxSpeed = maxSpeed;
+        this.name = name;
 
-
- //public Animal(){};
- public Animal( String name, int maxSpeed)
- {
-     this.maxSpeed= maxSpeed;
-     this.name= name;
-
- }
+    }
 
     public int getAnimalRandomSpeed() {
 
-     return animalRandomSpeed;
+        return animalRandomSpeed;
     }
 
     public void setAnimalRandomSpeed(int animalRandomSpeed) {
@@ -45,7 +42,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return this.name + " "+ this.getAnimalRandomSpeed();
+        return this.name + " " + this.getAnimalRandomSpeed();
     }
 
 

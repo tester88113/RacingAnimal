@@ -8,20 +8,17 @@ public class MinNumber {
         System.out.println("How many number do you want to input?");
         int total = values.nextInt();
         int[] list = new int[total];
-        for (int I = 0; I < total; I++)
-        {
+        for (int I = 0; I < total; I++) {
 
-            System.out.println("number" + (I+1) + ":");
+            System.out.println("number" + (I + 1) + ":");
 
             list[I] = values.nextInt();
         }
-        int minValue= list[0];
-        for( int k=0; k< list.length; k++)
-        {
+        int minValue = list[0];
+        for (int k = 0; k < list.length; k++) {
 
-            if( list[k] < minValue)
-            {
-                minValue=  list[k];
+            if (list[k] < minValue) {
+                minValue = list[k];
             }
 
         }
